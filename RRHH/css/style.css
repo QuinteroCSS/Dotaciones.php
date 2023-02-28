@@ -1,0 +1,120 @@
+:root{
+    --azul:#01426A;
+    --azulOscuro:#021934;
+    --azulGris:#8DA9C4;
+    --negro:#020000f0;
+    --fuente:'Quicksand', sans-serif;
+    --blanco:#fdfdfdf0;
+}
+html{
+    box-sizing: border-box;
+}
+
+*,*::after, *::before{
+    box-sizing: inherit;
+}
+body{
+    
+   background-image: url(IMG/IA.jpeg);
+   display: flex;
+   align-items: center;
+   height: 100vh; 
+   background-position: center;
+
+}
+
+
+.contenedor{
+    margin: 0 auto;
+    max-width: 300px;
+    width: 90%;
+    background-position: center;
+    border-radius: 20px;
+    
+    
+}
+
+
+
+.formulario{
+    padding: 10px;
+    background-color: var(--blanco);
+    background-position: center;
+    border-radius: 20px;
+    
+}
+.texto-formulario h2, .texto-formulario h1, .input label, .password-olvidada a, .texto-formulario p{
+    
+    color: var(--negro);
+}
+    
+    
+    
+    
+.texto-formulario h6{
+    
+    
+    text-align: center;
+    color: #ff6900;
+    background-image: url("IMG/logo\ atento.png");
+    height: 50px;
+    width: 255px;
+    
+}
+
+.texto-formulario h2{
+    
+    font-size: 3;
+    text-align: center;
+    color: #01426A;
+    font-family: Arial;
+}
+.texto-formulario p{
+    
+    font-size: 2;
+    text-align: center;
+    color: #01426A;
+}
+.input label{
+    
+    display: block;
+    font-size: 22px;
+    font-weight: bold ;
+    margin: 20px 0;
+    color: #01426A;
+}
+.password-olvidada a{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 22px;
+}
+    
+
+    
+.input input{
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 5px;
+    outline: none;
+}
+.input input[type="submit"]{
+    background-color: var(--azul);
+    color: var(--blanco);
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    transition: background-color .3s ease-in-out;
+}
+.input input[type="submit"]:hover{
+  
+    cursor: pointer;
+    background-color: var(--azulOscuro);
+}
+.contenedor-h5{
+    margin: 0 auto;
+    max-width: 300px;
+    width: 90%;
+    background-position: center;
+    border-radius: 20px;
+}    
